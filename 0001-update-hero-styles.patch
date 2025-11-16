@@ -1,0 +1,25 @@
+From 8004c05a8367d8a3c1451d8abb983f13fe1fce90 Mon Sep 17 00:00:00 2001
+From: RohanBabhale1 <RohanBabhale1@users.noreply.github.com>
+Date: Sun, 16 Nov 2025 15:16:06 +0530
+Subject: [PATCH] Update Hero styles (Hero.css)
+
+---
+ src/components/Hero.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/components/Hero.css b/src/components/Hero.css
+index b6ecf39..65140a5 100644
+--- a/src/components/Hero.css
++++ b/src/components/Hero.css
+@@ -17,7 +17,7 @@
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+-  opacity: 0.05;
++  opacity: 0.5;
+ }
+ 
+ .hero-content {
+-- 
+2.50.0.windows.1
+

@@ -46,7 +46,7 @@
   line-height: 0.9;
   color: #000;
   margin: 0 0 2rem 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   text-transform: uppercase;
   letter-spacing: -2px;
   height: 2em;
@@ -55,6 +55,30 @@
   justify-content: flex-start;
   width: 100%;
   position: relative;
+}
+
+/* Subtitle and paragraph styles for hero content */
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: #333;
+  max-width: 780px;
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.hero-lead {
+  font-size: 1rem;
+  color: #555;
+  max-width: 680px;
+  margin: 0 0 1.25rem 0;
+  line-height: 1.8;
+}
+
+.hero-note {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 0.5rem;
 }
 
 .title-line {
@@ -102,10 +126,12 @@
 }
 
 @keyframes blink {
-  0%, 50% {
+  0%,
+  50% {
     opacity: 1;
   }
-  51%, 100% {
+  51%,
+  100% {
     opacity: 0;
   }
 }
@@ -165,17 +191,17 @@
 }
 
 .feature-item-1 {
-  background: linear-gradient(135deg, #5C2DED 0%, #7C4DFF 100%);
+  background: linear-gradient(135deg, #5c2ded 0%, #7c4dff 100%);
   color: white;
 }
 
 .feature-item-2 {
-  background: linear-gradient(135deg, #FF2D86 0%, #FF6BA8 100%);
+  background: linear-gradient(135deg, #ff2d86 0%, #ff6ba8 100%);
   color: white;
 }
 
 .feature-item-3 {
-  background: linear-gradient(135deg, #00D4FF 0%, #0099CC 100%);
+  background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
   color: white;
 }
 
@@ -185,12 +211,12 @@
 }
 
 .feature-item-5 {
-  background: linear-gradient(135deg, #5C2DED 0%, #7C4DFF 100%);
+  background: linear-gradient(135deg, #5c2ded 0%, #7c4dff 100%);
   color: white;
 }
 
 .feature-item-6 {
-  background: linear-gradient(135deg, #FF2D86 0%, #FF6BA8 100%);
+  background: linear-gradient(135deg, #ff2d86 0%, #ff6ba8 100%);
   color: white;
 }
 
@@ -352,7 +378,7 @@
 
 .circular-text text {
   fill: #000000;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -492,7 +518,7 @@
     gap: 3rem;
     padding: 3rem 1.5rem;
   }
-  
+
   .hero-right {
     align-items: center;
     width: 100%;
@@ -508,7 +534,7 @@
     max-width: 100%;
     margin-top: 2rem;
   }
-  
+
   .hero-features {
     justify-content: center;
     gap: 1.5rem;
@@ -586,7 +612,7 @@
   .feature-item p {
     font-size: 0.875rem;
   }
-  
+
   .product-description-box {
     padding: 1.5rem;
   }
