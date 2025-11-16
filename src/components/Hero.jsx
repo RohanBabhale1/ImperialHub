@@ -231,9 +231,10 @@ export default function Hero() {
           <div className="product-description-box">
             <h2 className="description-title">This Product</h2>
             <p className="description-text">
-              Change the look of your house is change the perspective of others. 
-              Converting a home into a modern living space with premium furniture 
-              that combines style and comfort.
+              Transform your home and elevate the way it’s experienced. Create modern,
+              welcoming spaces with premium furniture that blends refined style and
+              everyday comfort — thoughtfully designed to make your house truly feel
+              like a home.
             </p>
             <button className="explore-btn">
               EXPLORE SHOP →
